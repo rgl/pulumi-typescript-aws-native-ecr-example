@@ -5,6 +5,7 @@ This creates private container image repositories hosted in the [AWS Elastic Con
 For equivalent examples see:
 
 * [terraform](https://github.com/rgl/terraform-aws-ecr-example)
+* [pulumi (aws provider)](https://github.com/rgl/pulumi-typescript-aws-classic-ecr-example)
 
 # Usage (on a Ubuntu Desktop)
 
