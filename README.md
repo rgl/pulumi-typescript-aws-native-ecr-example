@@ -160,6 +160,7 @@ Destroy the example:
 
 ```bash
 pulumi destroy
+pulumi stack rm dev
 ```
 
 # Notes
