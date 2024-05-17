@@ -2,7 +2,7 @@ import * as pulumi from "@pulumi/pulumi";
 import * as command from "@pulumi/command";
 import * as aws from "@pulumi/aws-native";
 
-function getMergedDefaultTagsArg(defaultTags: Record<string, string>, tags?: Record<string, string>): aws.types.input.ecr.RepositoryTagArgs[] {
+function getMergedDefaultTagsArg(defaultTags: Record<string, string>, tags?: Record<string, string>): aws.types.input.TagArgs[] {
     return Object.entries(Object.assign(tags ?? {}, defaultTags)).map(([key, value]) => {
         return {
             key,

@@ -143,7 +143,7 @@ Delete the example image resource:
 # list the stack, and grab the urn of the example Command, and use
 # it in the pulumi destroy command.
 pulumi stack --show-urns
-pulumi destroy --target 'urn:pulumi:dev::pulumi-typescript-aws-native-ecr-example::aws-native:ecr:Repository$command:local:Command::pulumi-typescript-aws-native-ecr-example/example:v1.10.0'
+pulumi destroy --target 'urn:pulumi:dev::pulumi-typescript-aws-native-ecr-example::aws-native:ecr:Repository$command:local:Command::pulumi-typescript-aws-native-ecr-example/example:v1.11.0'
 ```
 
 At the ECR AWS Management Console, verify that the example image no longer

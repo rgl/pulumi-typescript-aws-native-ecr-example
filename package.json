@@ -2,11 +2,11 @@
     "name": "pulumi-typescript-aws-native-ecr-example",
     "main": "index.ts",
     "devDependencies": {
-        "@types/node": "^20.11.0"
+        "@types/node": "^20.12.12"
     },
     "dependencies": {
-        "@pulumi/pulumi": "^3.101.1",
-        "@pulumi/command": "^0.9.2",
-        "@pulumi/aws-native": "^0.93.0"
+        "@pulumi/pulumi": "^3.116.1",
+        "@pulumi/command": "^0.11.0",
+        "@pulumi/aws-native": "^0.105.0"
     }
 }

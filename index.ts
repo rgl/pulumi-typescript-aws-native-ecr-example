@@ -20,8 +20,11 @@ const defaultTags = {
 // object value: source image uri.
 // object key: target repository name suffix (project used as name suffix).
 const sourceImages = {
-    "example": "docker.io/ruilopes/example-docker-buildx-go:v1.10.0",
-    "hello-etcd": "ghcr.io/rgl/hello-etcd:0.0.1",
+    // see https://github.com/rgl/example-docker-buildx-go
+    "example": "docker.io/ruilopes/example-docker-buildx-go:v1.11.0",
+
+    // see https://github.com/rgl/hello-etcd
+    "hello-etcd": "ghcr.io/rgl/hello-etcd:0.0.2",
 }
 
 export const images = createImages(region, project, sourceImages, defaultTags);
